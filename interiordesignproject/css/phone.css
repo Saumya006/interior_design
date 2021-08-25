@@ -1,0 +1,364 @@
+
+    #logo h4{
+        font-size:20px;
+    }
+    .navbar-1 ul li {
+        padding: 4px 26px;
+    }
+    .call-btn {
+        padding: 5px 5px;
+        font-size: 16px;  
+    }
+    .hover-border{
+        font-size: 1.1rem;
+    }  
+    #description {
+        margin-top: 7%;
+    }
+
+@media  screen  and (max-width:1100px){
+    #logo h4 {
+        display: none;
+    }
+    .call-btn {
+        display: none;
+    }
+    .cls-1 h1 {
+        font-size: 1.8rem;
+    }
+    .cls-1 h2 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .cls-1 p {
+        font-size: 1rem;
+    }    
+    .btn-1 {
+        width: 40%;
+    }
+    .boxes {
+        height: 62vh;
+        width: 28vw;
+    }
+    .boxes img {
+        height: 37vh;
+        width: 28vw;
+    }
+    .boxes h4 {
+        font-size: 1.3rem;
+    }
+    .boxes p {
+        font-size: 16px;
+    }
+    .location_title {
+        font-size: 1.3rem;
+        font-weight: bold;
+        text-align: center;
+    }
+    .location_description {
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 200;
+    }
+    .end-box {
+        font-size: 1.1rem;
+    }
+    .connect {
+        height: 8vh;
+    }
+    .center {
+        width: 37%;
+        font-size: 1.15rem;
+    }
+    .h-primary {
+        font-size: 3rem;
+    }
+}
+@media  screen  and (max-width:800px){
+    .navbar-1 {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .nav-ul{
+        display:none;
+    }
+    .nav-ul.show{
+        display: flex;
+    }
+    #home {
+        display: flex;
+    flex-direction: column;
+        height: 128vh;
+    }
+    .cls-1 {
+        height: 65vh;
+        margin-left: 0%;
+    }
+    #prime::after {
+        height: 60%;
+        width: 60%;
+    }
+    .picture-box img {
+        height: 58vh;
+        width: 84vw;
+    }
+    #services {
+        height: 100%;
+        width: 100%;
+    }
+    .contents {
+        flex-direction: column;
+    }
+    .boxes {
+        height: 66vh;
+        width: 56vw;
+        margin: auto;
+    }
+    .boxes img {
+        height: 35vh;
+        width: 52vw;
+    }
+    #description {
+        margin-top: 3%;
+        height: 88vh;
+    }
+    .item-1 img {
+        height: 79vh;
+        width: 66vw;
+    }
+    #pic {
+        height: 79vh;
+        width: 47vw;
+        padding-left: 9%;
+    }
+    .item-1 h2 {
+        font-size: 1.5rem;
+    }
+    .item-1 p {
+        font-size: 1.1rem;
+    }
+    #Work {
+        height: 150vh;
+    }    
+    .arrange {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 130vh;
+    }
+    .workbox {
+        height: 40vh;
+        width: 60vw;
+    }
+    .workbox img {
+        height: 40vh;
+        width: 60vw;
+    }
+    .part-2 {
+        display: none;
+    }
+
+    .h-primary {
+        font-size: 2.3rem;
+    }
+    .typebox {
+        flex-direction: column;
+        height: 92vh;
+    }
+    .type {
+        margin: auto;
+        height: 28vh;
+        width: 45vw;
+    }
+   
+    #types {
+      
+        display: none;
+    }
+    #show-box {
+        padding-top: 4%;
+        height: 80vh
+       
+    }
+    #show-box img {
+        height: 80vh;
+    }
+    #contact-box {
+        height: 65vh;
+        width: 65vw;
+        top: -100%;
+        left: 23%;
+        transform: translate(-10%, 70%);
+    }
+    #contact-box h2 {
+        font-size: 1.5rem;
+    }
+    #contact-box p {
+        text-align: center;
+        font-size: 18px;
+    }
+    .info {
+        width: 30%;
+        margin: 0% 5%;
+        padding: 2% 2%;
+        font-size: 1rem;
+    }
+   
+    #end-content {
+        height: 105vh;
+        transform: translate(0%, 0%);
+    }
+    .feet {
+        
+        transform: translate(0%, 99%);
+        height: 37vh;
+    }    
+    .end-box h5 {
+        text-align: center;
+        font-size: 1.1rem;
+    }
+
+    .connect h5 {
+        font-size: 1.1rem;
+    }
+    .connect ul li img {
+        height: 40px;
+        width: 35px;
+    }
+    .center {
+        width: 54%;
+        font-size: 1.02rem;
+        transform: translate(24vw, 46vh);
+    }
+}    
+@media screen and (max-width:650px) {
+    .cls-1 h1 {
+        font-size: 1.35rem;
+    }
+    .cls-1 h2 {
+        font-size: 1.17rem;
+        text-align: center;
+    }
+    .cls-1 p {
+        font-size: 16px;
+    }
+    #prime::after {
+        height: 62%;
+        width: 86%;
+    }
+    
+    .boxes img {
+        height: 35vh;
+        width: 55vw;
+    }
+    .boxes h4 {
+        font-size: 20px;
+    }
+    .boxes p {
+        font-size: 14px;
+    }
+    #description {
+        display: none;
+    }
+    #types {
+        display: none;
+    }
+    #show-box {
+        display: none;
+    }
+    #end-content {
+        height: 27vh;
+        transform: translate(0%, 0%);
+    }
+    .feet {
+        display: none;
+    }
+    .connect {
+        height: 6vh;
+        transform: translate(0%, 14%);
+        }
+    .center {
+        width: 90%;
+        font-size: 17px;
+    transform: translate(4vw, 13vh);
+    }
+    .h-primary {
+        font-size: 2rem;
+    }
+    @media screen and (max-width:450px) {
+        .cls-1 h1 {
+            font-size: 1.15rem;
+        }
+        .cls-1 h2 {
+            font-size: 1.02rem;
+            text-align: center;
+        }
+        .cls-1 p {
+            font-size: 15px;
+            text-align: left;
+        }
+        #prime::after {
+            height: 53%;
+            width: 90%;
+        }
+        .btn-1 {
+            width: 42%;
+            margin: 0% auto;
+            font-size: 14px;
+        }
+        .btn-1:hover {
+            width: 50%;
+        }
+        .picture-box img {
+            height: 45vh;
+            width: 85vw;
+        }
+        .cls-1 {
+            height: 60vh;
+        }
+        #home {
+            height: 120vh;
+        }
+        .boxes {
+            height: 62vh;
+            width: 64vw;
+            margin: 2% auto;
+        }
+        .boxes img {
+            height: 31vh;
+            width: 65vw;
+        }
+        .arrange {
+            margin-left: 0%;
+        }
+        .workbox {
+            height: 40vh;
+            width: 82vw;
+        }
+        .workbox img {
+            height: 40vh;
+            width: 82vw;
+        }
+        .img_title {
+            font-size: 1.3rem;
+        }
+        .img_description {
+            font-size: 1rem;
+        }
+        .workBtn {
+            padding: 3% 10%;
+            width: 100%;
+            margin: 2% auto;
+            border: 2px solid darkblue;
+            font-size: 1.12rem;
+            margin: 6% auto;
+        }
+        .center {
+            font-size: 16px;
+        }
+        .h-primary {
+            font-size: 1.6rem;
+        }
+    }
+}
