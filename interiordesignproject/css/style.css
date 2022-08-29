@@ -90,7 +90,19 @@ body{
     left: 0%;
     width: 100%;
 }
-
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+.bar{
+    display: block;
+    width: 32px;
+    height: 4px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #0e255a;
+}
 .call-btn{
     padding: 10px 20px;
     font-size: 18px;
