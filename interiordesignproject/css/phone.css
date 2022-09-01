@@ -324,7 +324,13 @@
     .h-primary {
         font-size: 2rem;
     }
-    @media screen and (max-width:460px) {
+    .wrapper{
+        width: 50%;
+    }
+    .center {
+        width: 60%;
+    }
+@media screen and (max-width:460px) {
         .hamburger{
             display: block;
             transform: translateX(5rem);
@@ -408,10 +414,22 @@
             margin: 6% auto;
         }
         .center {
-            font-size: 16px;
+            font-size: 15px;
+            width: 100%;
+        }
+        .wrapper{
+            width: 100%;
         }
         .h-primary {
             font-size: 1.6rem;
+        }
+    }
+
+    @media screen and(maxwidth:350px) {
+        .center {
+            /* width: 90%; */
+            font-size: 10px;
+            transform: translate(23vw, 12vh);
         }
     }
 }
